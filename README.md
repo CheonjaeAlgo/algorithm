@@ -31,3 +31,12 @@
 | 1주차<br />(10.31. 11.5.)  | 유지연 | `GOLD2` <br /> `GOLD3`<br /> | [그래프 트리 분할](https://www.acmicpc.net/problem/22954)<br /> [행렬 곱셈순서](https://www.acmicpc.net/problem/11049)<br /> |
 | 2주차<br />(11.7. 11.12.)  | 허설   | `GOLD3` <br /> `GOLD4`<br /> | [인싸들의 가위바위보](https://www.acmicpc.net/problem/16986)<br /> [비밀 모임](https://www.acmicpc.net/problem/13424)<br />  |
 | 3주차<br />(11.14. 11.19.) | 이현규 | `GOLD1` <br /> `GOLD2`<br /> | [열쇠](https://www.acmicpc.net/problem/9328)<br /> [보석 도둑](https://www.acmicpc.net/problem/1202)<br />                   |
+
+2022년 12월
+
+| 주차                       | 난이도                      | 출제자 | 문제                                                                                                   |
+| -------------------------- | --------------------------- | ------ | ------------------------------------------------------------------------------------------------------ |
+| 1주차<br>(12.05. ~ 12.11.) | `GOLD5`<br /> `GOLD5`<br /> | 남은열 | [센서](https://www.acmicpc.net/problem/2212)<br /> [회문](https://www.acmicpc.net/problem/17609)<br /> |
+| 2주차<br>(12.12. ~ 12.18.) | -                           | -      | -                                                                                                      |
+| 3주차<br>(12.19. ~12.25.)  | -                           | -      | -                                                                                                      |
+| 4주차<br>(12.26. ~ 01.01.) | -                           | -      | -                                                                                                      |

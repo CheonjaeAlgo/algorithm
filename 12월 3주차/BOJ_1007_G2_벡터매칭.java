@@ -41,11 +41,10 @@ public class BOJ_1007_G2_벡터매칭 {
 			
 			points= new Point[N];
 			isChecked = new boolean[N];
-			
-			for (int i = 0; i < N; i++) {
+			MIN = Double.MAX_VALUE;
+			for (int i = 0; i < points.length; i++) {
 				st = new StringTokenizer(br.readLine()," ");
 				points[i]= new Point(Integer.parseInt(st.nextToken()),Integer.parseInt(st.nextToken()));
-				
 			}
 			
 			combination(0, N / 2);
@@ -59,7 +58,7 @@ public class BOJ_1007_G2_벡터매칭 {
         int x = 0;
         int y = 0;
         
-        for (int i = 0; i < N; i++)
+        for (int i = 0; i < points.length; i++)
         {
             if (isChecked[i])
             {
@@ -85,10 +84,9 @@ public class BOJ_1007_G2_벡터매칭 {
             MIN = Math.min(MIN, Vector());
         }
         
-        // 조합할 원소 갯수가 아직 남아있을 경우
         else
         {
-            for (int i = index; i < N; i++)
+            for (int i = index; i < points.length; i++)
             {
                 isChecked[i] = true;
                 

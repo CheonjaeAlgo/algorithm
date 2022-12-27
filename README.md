@@ -39,4 +39,4 @@
 | 1주차<br>(12.05. ~ 12.11.) | `GOLD5`<br /> `GOLD5`<br /> | 남은열 | [센서](https://www.acmicpc.net/problem/2212)<br /> [회문](https://www.acmicpc.net/problem/17609)<br /> |
 | 2주차<br>(12.12. ~ 12.18.) | -                           | -      | -                                                                                                      |
 | 3주차<br>(12.19. ~12.25.)  | `GOLD2`<br /> `GOLD5`<br /> | 허설   | [빵집](https://www.acmicpc.net/problem/3109)<br /> [내일할거야](https://www.acmicpc.net/problem/7983)<br /> |
-| 4주차<br>(12.26. ~ 01.01.) | -                           | -      | -                                                                                                      |
+| 4주차<br>(12.26. ~ 01.01.) |  `GOLD5`<br /> `GOLD4`<br />|황석영      |[틱택토](https://www.acmicpc.net/problem/7682)<br /> [페그 솔리테어](https://www.acmicpc.net/problem/9207)<br />                                                                                                     |

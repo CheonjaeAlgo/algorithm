@@ -1,0 +1,17 @@
+function solution(s) {
+    var answer = [];
+    let alphabet=new Map();
+    for(let i=0 ;i<s.length;i++){
+        if(alphabet.get(s[i])===undefined){
+            answer.push(-1)
+        
+        }else{
+            answer.push(i-alphabet.get(s[i]))
+            
+        }
+        alphabet.set(s[i],i)
+    }
+    
+    
+    return answer;
+}

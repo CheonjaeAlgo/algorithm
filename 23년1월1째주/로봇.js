@@ -70,7 +70,6 @@ const bfs = (start, end) => {
       if (count[ny][nx][dir] > time + 1) {
         queue.add([ny, nx, dir, time + 1])
         count[ny][nx][dir] = time + 1
-        // console.log(ny,nx,time);
       }
       ny += dy[dir]
       nx += dx[dir]
@@ -93,3 +92,4 @@ const bfs = (start, end) => {
   }
 }
 bfs(start, end)
+

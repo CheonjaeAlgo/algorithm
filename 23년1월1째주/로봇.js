@@ -10,43 +10,6 @@ const map = Array.from({ length: N }, (_, i) =>
 let count = Array.from({ length: N }, () =>
   Array.from({ length: M }, () => Array(4).fill(Infinity))
 )
-
-class Queue {
-  constructor() {
-    this.storage = {}
-    this.front = 0
-    this.rear = 0
-  }
-  size() {
-    if (this.storage[this.rear] === undefined) {
-      return 0
-    } else {
-      return this.rear - this.front + 1
-    }
-  }
-  add(value) {
-    if (this.size() === 0) {
-      this.storage["0"] = value
-    } else {
-      this.rear += 1
-      this.storage[this.rear] = value
-    }
-  }
-  popleft() {
-    let temp
-    if (this.front === this.rear) {
-      temp = this.storage[this.front]
-      delete this.storage[this.front]
-      this.front = 0
-      this.rear = 0
-    } else {
-      temp = this.storage[this.front]
-      delete this.storage[this.front]
-      this.front += 1
-    }
-    return temp
-  }
-}
 const start = input[N + 1].split(" ").map((num) => +num - 1)
 const end = input[N + 2].split(" ").map((num) => +num - 1)
 //console.log(start,end);
@@ -94,3 +57,39 @@ const bfs = (start, end) => {
 }
 bfs(start, end)
 
+class Queue {
+  constructor() {
+    this.storage = {}
+    this.front = 0
+    this.rear = 0
+  }
+  size() {
+    if (this.storage[this.rear] === undefined) {
+      return 0
+    } else {
+      return this.rear - this.front + 1
+    }
+  }
+  add(value) {
+    if (this.size() === 0) {
+      this.storage["0"] = value
+    } else {
+      this.rear += 1
+      this.storage[this.rear] = value
+    }
+  }
+  popleft() {
+    let temp
+    if (this.front === this.rear) {
+      temp = this.storage[this.front]
+      delete this.storage[this.front]
+      this.front = 0
+      this.rear = 0
+    } else {
+      temp = this.storage[this.front]
+      delete this.storage[this.front]
+      this.front += 1
+    }
+    return temp
+  }
+}

@@ -49,3 +49,10 @@
 | 2주차<br>(01.09. ~ 01.15.) | `GOLD4`<br /> `GOLD5`<br />  | 유지연 | [전화번호 목록](https://www.acmicpc.net/problem/5052)<br /> [센서](https://www.acmicpc.net/problem/2212)<br />                       |
 | 3주차<br>(01.16. ~ 01.22.) | `GOLD5`<br /> `GOLD5`<br />                            | 허 설      | [공유기 설치](https://www.acmicpc.net/problem/2110)<br /> [개똥벌레](https://www.acmicpc.net/problem/3020)<br />                                                                                                                                    |
 | 4주차<br>(01.23. ~ 01.29.) | `GOLD1`<br /> `GOLD4`<br />                             | 황석영      | [타일채우기](https://www.acmicpc.net/problem/2718)<br /> [개근상](https://www.acmicpc.net/problem/1563)<br />                                                                                                                                    |
+
+2023년 02월
+
+| 주차                       | 난이도                       | 출제자 | 문제                                                                                                                                 |
+| -------------------------- | ---------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 1주차<br>(01.30. ~ 02.05.) | `GOLD4`<br /> `GOLD5`<br /> | 유지연 | [서강그라운드](https://www.acmicpc.net/problem/14938)<br />  [끝나지않는파티](https://www.acmicpc.net/problem/11265)<br /> |
+

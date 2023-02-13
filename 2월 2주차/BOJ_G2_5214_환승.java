@@ -1,75 +1,87 @@
-package boj05214;
+package _2월2주차;
+import java.util.*;
+import java.io.*;
 
-//Contest > Croatian Open Competition in Informatics > COCI 2012/2013 > Contest #5 No.4
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.StringTokenizer;
+/**
+ * https://www.acmicpc.net/problem/5214
+ * @author Zizon_Yonni
+ * 
+ * 1번역에서 N번역으로 가는데 방문하는 최소 역의 수는 몇 개일까?
+ *
+ */
+public class BOJ_G2_5214_환승 {
+	
 
-public class BOJ_05214 {
-	static int N, K, M, i, j, k;
-	static int[] visit_S;
-	static boolean[] visit_T;
-	static ArrayList<Integer>[] list_S, list_T;
-
-	public static void main(String[] args) throws Exception {
+	static int N,K,M;	// 역,연결,하이퍼튜브
+	static int dist[];
+	static ArrayList<ArrayList<Integer>> graph = new ArrayList<ArrayList<Integer>>();
+	
+	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		StringTokenizer stk = new StringTokenizer(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine());
 
-		N = Integer.parseInt(stk.nextToken()); // station count
-		K = Integer.parseInt(stk.nextToken()); // stations per tube
-		M = Integer.parseInt(stk.nextToken()); // n. of tubes
-
-		visit_S = new int[N + 1];
-		visit_T = new boolean[M + 1];
-		list_S = new ArrayList[N + 1]; // tubes in each station
-		list_T = new ArrayList[M + 1]; // stations in each tube
-		for (i = 0; i <= N; i++)
-			list_S[i] = new ArrayList<>();
-		for (i = 0; i <= M; i++)
-			list_T[i] = new ArrayList<>();
-		for (i = 1; i <= M; i++) {
-			stk = new StringTokenizer(br.readLine());
-			for (j = 0; j < K; j++) {
-				k = Integer.parseInt(stk.nextToken());
-				list_T[i].add(k);
-				list_S[k].add(i);
-			}
+		N = Integer.parseInt(st.nextToken());
+		K = Integer.parseInt(st.nextToken());
+		M = Integer.parseInt(st.nextToken());
+		
+		for (int i = 0; i < N+1+M; i++) {
+			graph.add(new ArrayList<Integer>());
 		}
-		br.close();
-
-		bw.write(bfs(1) + "\n");
-		bw.flush();
-		bw.close();
+		dist=new int[N+1+M];
+		
+		for (int i = 0; i < M; i++) {
+			st = new StringTokenizer(br.readLine());
+			for(int j =0; j<K;j++) 
+			{
+				int node = Integer.parseInt(st.nextToken());
+				graph.get(node).add(N+1+i);
+				graph.get(N+1+i).add(node);
+			}
+			
+		}
+		//System.out.println(graph.toString());
+		int ans =dijkstra();
+		System.out.println(ans);
 	}
-
-	static int bfs(int here_S) {
-		Deque<Integer> q = new ArrayDeque<Integer>();
-		visit_S[here_S] = 1;
-		q.offer(here_S);
-		while (!q.isEmpty()) {
-			here_S = q.poll();
-			if (here_S == N)
-				return visit_S[here_S];
-			for (i = 0; i < list_S[here_S].size(); i++) {
-				int here_T = list_S[here_S].get(i);
-				if (!visit_T[here_T]) {
-					visit_T[here_T] = true;
-					for (j = 0; j < list_T[here_T].size(); j++) {
-						int next_S = list_T[here_T].get(j);
-						if (visit_S[next_S] == 0) {
-							visit_S[next_S] = visit_S[here_S] + 1;
-							q.offer(next_S);
-						}
-					}
+	
+	public static int dijkstra() 
+	{
+		dist[1]=1;
+		int ans=-1;
+		
+		Queue<Integer> pq = new LinkedList<Integer>();
+		pq.offer(1);
+		
+		while(!pq.isEmpty()) 
+		{
+			int node = pq.poll();
+			
+			if(node==N) 
+			{
+				ans=dist[node];
+				break;
+			}
+			
+			ArrayList<Integer> list = graph.get(node);
+			int size = list.size();
+			
+			for (int i = 0; i < size; i++) {
+				int next =list.get(i);
+				//0이면 방문 x
+				if(dist[next]==0) 
+				{
+					//하이퍼 뭐시기 일경우
+					if(next>N)
+						dist[next]=dist[node];
+					else
+						dist[next]=dist[node]+1;
+					pq.offer(next);
 				}
+				
 			}
+			
 		}
-		return -1;
+		return ans;
 	}
+
 }

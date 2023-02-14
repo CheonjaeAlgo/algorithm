@@ -56,4 +56,5 @@
 | -------------------------- | ---------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------ |
 | 1주차<br>(01.30. ~ 02.05.) | `GOLD4`<br /> `GOLD5`<br /> | 유지연 | [서강그라운드](https://www.acmicpc.net/problem/14938)<br />  [끝나지않는파티](https://www.acmicpc.net/problem/11265)<br /> |
 | 2주차<br>(02.06. ~ 02.12.) | `GOLD2`<br /> `GOLD4`<br /> | 남은열 | [환승](https://www.acmicpc.net/problem/5214)<br /> [불!](https://www.acmicpc.net/problem/4179)<br />   |
+| 3주차<br>(02.13. ~ 02.19.) | `GOLD4`<br /> `GOLD5`<br />                            | 허 설      | [성싶당밀키트](https://www.acmicpc.net/problem/24041)<br /> [꿀따기](https://www.acmicpc.net/problem/21758)<br />                                                                                                                                    |
 

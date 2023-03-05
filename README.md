@@ -57,4 +57,11 @@
 | 1주차<br>(01.30. ~ 02.05.) | `GOLD4`<br /> `GOLD5`<br /> | 유지연 | [서강그라운드](https://www.acmicpc.net/problem/14938)<br />  [끝나지않는파티](https://www.acmicpc.net/problem/11265)<br /> |
 | 2주차<br>(02.06. ~ 02.12.) | `GOLD2`<br /> `GOLD4`<br /> | 남은열 | [환승](https://www.acmicpc.net/problem/5214)<br /> [불!](https://www.acmicpc.net/problem/4179)<br />   |
 | 3주차<br>(02.13. ~ 02.19.) | `GOLD4`<br /> `GOLD5`<br />                            | 허 설      | [성싶당밀키트](https://www.acmicpc.net/problem/24041)<br /> [꿀따기](https://www.acmicpc.net/problem/21758)<br />                                                                                                                                    |
+| 4주차<br />(02.20. ~ 02.26.) | `GOLD4`<br /> `GOLD5`<br /> | 황석영 | [배열돌리기4](https://www.acmicpc.net/problem/17406)<br /> [인구 이동](https://www.acmicpc.net/problem/16234)<br />   |
+
+2023년 03월
+
+| 주차                       | 난이도                       | 출제자 | 문제                                                                                                                                 |
+| -------------------------- | ---------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 1주차<br>(01.30. ~ 02.05.) | `GOLD3`<br /> `GOLD3`<br /> | 유지연 | [서울지하철2호선](https://www.acmicpc.net/problem/16947)<br /> [게리맨더링](https://www.acmicpc.net/problem/17471)<br /> |
 

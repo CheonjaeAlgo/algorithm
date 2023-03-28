@@ -67,4 +67,5 @@
 | 2주차<br>(03.06. ~ 03.12.) | `GOLD3`<br /> `GOLD3`<br /> | 남은열 | [줄세우기](https://www.acmicpc.net/problem/2252)<br /> [음악프로그램](https://www.acmicpc.net/problem/2623)<br />   |
 | 3주차<br>(03.13. ~ 03.19.) | `GOLD4`<br /> `GOLD5`<br /> | 허 설      | [암벽등반](https://www.acmicpc.net/problem/2412)<br /> [색종이와가위](https://www.acmicpc.net/problem/20444)<br />                                                                                                                                    |
 | 4주차<br />(03.20. ~ 03.26.) | `GOLD3`<br /> `GOLD5`<br /> | 황석영 | [행렬곱셈순서](https://www.acmicpc.net/problem/11049)<br /> [퇴사2](https://www.acmicpc.net/problem/15486)<br />   |
+| 5주차<br />(03.27. ~ 04.02.) | `GOLD2`<br /> `GOLD5`<br /> | 유지연 | [주사위윷놀이](https://www.acmicpc.net/problem/17825)<br /> [상어초등학교](https://www.acmicpc.net/problem/21608)<br />   |
 

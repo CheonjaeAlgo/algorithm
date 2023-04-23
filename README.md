@@ -75,5 +75,6 @@
 | -------------------------- | ---------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------ |
 | 1주차<br />(04.03. ~ 04.09.) | `GOLD4`<br /> `GOLD4`<br /> | 허 설 |[거짓말](https://www.acmicpc.net/problem/1043)<br /> [마법사상어와 파이어볼](https://www.acmicpc.net/problem/20056)<br /> |
 | 2주차<br />(04.10. ~ 04.16.) | `GOLD3`<br /> `GOLD3`<br /> | 황석영 |[소문난칠공주](https://www.acmicpc.net/problem/1941)<br /> [중량제한](https://www.acmicpc.net/problem/1939)<br /> |
-| 3주차<br />(04.17. ~ 04.23.) | `GOLD1`<br /> `GOLD3`<br /> | 유지연 | [구슬탈출](https://www.acmicpc.net/problem/13459)<br /> [미친아두이노](https://www.acmicpc.net/problem/8972)<br /> |                                                                                                                                   
+| 3주차<br />(04.17. ~ 04.23.) | `GOLD1`<br /> `GOLD3`<br /> | 유지연 | [구슬탈출](https://www.acmicpc.net/problem/13459)<br /> [미친아두이노](https://www.acmicpc.net/problem/8972)<br /> |   
+| 4주차<br />(04.24. ~ 04.30.) | `GOLD3`<br /> `GOLD4`<br />  | 허 설 | [산책(small)](https://www.acmicpc.net/problem/22868)<br />[빙산](https://www.acmicpc.net/problem/2573)<br /> |
 
